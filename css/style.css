@@ -4,19 +4,32 @@ body {
   padding: 0;
   background-color: #f9f9f9;
 }
-
 h1 {
   text-align: center;
   margin-top: 50px;
+  background: linear-gradient(135deg, #ffd89b, #19547b);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-
+.gradient-text {
+  background: linear-gradient(135deg, #ffd89b, #19547b);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* Paragraph styles */
 p {
   text-align: center;
   margin: 20px 0;
+  color: #333;
 }
 
+/* Footer styles */
 footer {
-  background-color: #333;
+  background: linear-gradient(
+    135deg,
+    #ffd89b,
+    #19547b
+  ); /* Same gradient as the header */
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -28,10 +41,12 @@ footer a {
   margin: 0 10px;
 }
 
+/* Croissant photo page specific styles */
 .croissant-photo {
   display: block;
   margin: 0 auto;
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
